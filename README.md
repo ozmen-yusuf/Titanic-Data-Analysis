@@ -8,17 +8,17 @@ This project presents a comprehensive exploratory data analysis (EDA) and surviv
 
 The project followed these key steps:
 
-1.  [cite_start]**Data Loading and Initial Exploration:** Loaded the dataset using Pandas and performed an initial inspection to understand its structure, features, and data types. 
+1.  **Data Loading and Initial Exploration:** Loaded the dataset using Pandas and performed an initial inspection to understand its structure, features, and data types.
 2.  **Exploratory Data Analysis (EDA):**
     * Analyzed the relationships between various features (like `Pclass`, `Sex`, `Age`, `SibSp`, `Parch`) and the `Survived` target variable.
-    * [cite_start]Used libraries like Matplotlib and Seaborn to create visualizations (e.g., bar charts, histograms, heatmaps) to better understand data distributions and correlations. 
+    * Used libraries like Matplotlib and Seaborn to create visualizations (e.g., bar charts, histograms, heatmaps) to better understand data distributions and correlations.
 3.  **Data Cleaning and Preprocessing:**
     * Handled missing values in columns like `Age` using appropriate imputation techniques.
     * Converted categorical features (like `Sex` and `Embarked`) into numerical formats suitable for machine learning models.
 4.  **Modeling and Prediction:**
-    * [cite_start]Split the data into training and testing sets using `train_test_split`. 
-    * [cite_start]Trained a machine learning model (e.g., `DecisionTreeClassifier` or `LogisticRegression`) to predict survival outcomes. 
-    * [cite_start]Evaluated the model's performance using metrics like accuracy score. 
+    * Split the data into training and testing sets using `train_test_split`.
+    * Trained a machine learning model (e.g., `DecisionTreeClassifier` or `LogisticRegression`) to predict survival outcomes.
+    * Evaluated the model's performance using metrics like accuracy score.
 
 ## Key Findings
 
@@ -30,7 +30,7 @@ The project followed these key steps:
 
 * **Language:** Python 3
 * **Libraries:**
-    * [cite_start]Pandas for data manipulation and analysis. 
+    * Pandas for data manipulation and analysis.
     * NumPy for numerical operations.
-    * [cite_start]Matplotlib & Seaborn for data visualization. 
-    * [cite_start]Scikit-learn for machine learning modeling.
+    * Matplotlib & Seaborn for data visualization.
+    * Scikit-learn for machine learning modeling.
